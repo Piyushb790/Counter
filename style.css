@@ -1,3 +1,29 @@
- .container{
-    
- }
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container h1{
+    font-size: 70px;
+}
+button{
+    background-color: aqua;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 45px;
+    border: none;
+    margin: 0 5px;
+}
+.inc-dec{
+    margin: 10px 0;
+}
+.inc-dec span input{
+    width: 50px;
+    height: 40px;
+}
